@@ -833,11 +833,11 @@ class crack2:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-                        print ("\033[0;96m─────────────────────────────────────────────────────────────")
+                        print ("\033[0;96m-----------------------------------------------------------------------")
 			print ("\033[0;96m||==\033[0;97m[*] Crack Started...")
 			print ("\033[0;96m||==\033[0;97m[+] Account [OK] saved to : ok.txt")
 			print ("\033[0;96m||==\033[0;97m[-] Account [CP] saved to : checkpoint.txt")
-                        print ("\033[0;96m─────────────────────────────────────────────────────────────")
+                        print ("\033[0;96m-----------------------------------------------------------------------")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			print("   [+] Finished")
@@ -918,11 +918,11 @@ class crack3:
 				except Exception as e:
 					print ("   %s"%e)
 					continue
-                                print ("\033[0;96m─────────────────────────────────────────────────────────────")
+                                print ("\033[0;96m-----------------------------------------------------------------------")
 				print ("\033[0;96m||==\033[0;97m[*] Crack Started...")
 				print ("\033[0;96m||==\033[0;97m[+] Account [OK] saved to : ok.txt")
 				print ("\033[0;96m||==\033[0;97m[-] Account [CP] saved to : checkpoint.txt")
-                                print ("\033[0;96m─────────────────────────────────────────────────────────────")
+                                print ("\033[0;96m-----------------------------------------------------------------------")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				print("   [+] Finished")
@@ -934,11 +934,11 @@ class crack3:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-                        print ("\033[0;96m─────────────────────────────────────────────────────────────")
+                        print ("\033[0;96m------------------------------------------------------------------------")
 			print ("\033[0;96m||==\033[0;97m[*] Crack Started...")
 			print ("\033[0;96m||==\033[0;97m[+] Account [OK] saved to : ok.txt")
 			print ("\033[0;96m||==\033[0;97m[-] Account [CP] saved to : checkpoint.txt")
-                        print ("\033[0;96m─────────────────────────────────────────────────────────────")
+                        print ("\033[0;96m-------------------------------------------------------------------------")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			print("   [+] Finished")
