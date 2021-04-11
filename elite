@@ -447,11 +447,11 @@ def methode():
 def logs():
   banner()
   print("\033[0;96m-----------------------------------------------------------------------")
-  print("\033[0;96m╔══\033[0;97m[ Pilih Metode Login ]")
-  print("\033[0;96m║")
-  print("\033[0;96m╠══\033[0;97m[1] Login With Token")
-  print("\033[0;96m╠══\033[0;97m[2] Login With Cookie")
-  print("\033[0;96m╚══\033[0;97m[0] Exit ")
+  print("\033[0;96m||==\033[0;97m[ Pilih Metode Login ]")
+  print("\033[0;96m||")
+  print("\033[0;96m||==\033[0;97m[1] Login With Token")
+  print("\033[0;96m||==\033[0;97m[2] Login With Cookie")
+  print("\033[0;96m||==\033[0;97m[0] Exit ")
   print("\033[0;96m-----------------------------------------------------------------------")
   sek=raw_input("\033[0;97m   [+] Input : ")
   if sek=="":
